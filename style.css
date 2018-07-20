@@ -2,6 +2,83 @@
   margin: 0;
   padding: 0;
 }
+.icon {
+  width: 2em;
+  height: 2em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+li{
+  list-style: none;
+}
 #canvas{
+  display: block;
+  background-color: white;
+}
+
+#pencil{
+  position: fixed;
+  left: 8px;
+  top: 4px;
+}
+
+#eraser {
+  position: fixed;
+  left: 42px;
+  top: 4px;
+}
+
+#download{
+  position: fixed;
+  left: 80px;
+  top: 5px;
+}
+
+.pencilwidth{
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.pencilwidth li{
+  width: 80px;
+  margin: 20px 5px;
+  background-color: black;
+}
+
+.pencilwidth #thin {
+  height: 5px;
+}
+
+.pencilwidth #thick {
+  height: 10px;
+}
+
+.color {
+  position: fixed;
+  left: 10px;
+  top: 45px;
+}
+
+.color li {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 8px 0;
+  border: 4px solid #adadad;
+  box-shadow:0px 0px 15px 2px rgba(117, 117, 117, 0.84);
+}
+
+#red{
+  background-color: red;
+}
+
+#green{
   background-color: green;
+}
+
+#blue{
+  background-color: blue;
 }

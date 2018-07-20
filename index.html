@@ -4,9 +4,29 @@
   <meta charset="UTF-8">
   <title>Canvas</title>
   <link rel="stylesheet" href="style.css">
+  <script src="//at.alicdn.com/t/font_756981_gpc54jn072s.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <canvas id="canvas" width=800 height=800></canvas>
+  <canvas id="canvas"></canvas>
+  <svg id="pencil" class="icon" aria-hidden="true">
+    <use xlink:href="#icon-pencil"></use>
+  </svg>
+  <svg id="eraser" class="icon" aria-hidden="true">
+    <use xlink:href="#icon-eraser"></use>
+  </svg>
+  <a id="adownload" download><svg id="download" class="icon" aria-hidden="true">
+    <use xlink:href="#icon-download"></use>
+  </svg></a>
+  <ol class="pencilwidth">
+    <li id="thin"></li>
+    <li id="thick"></li>
+  </ol>
+  <ol class="color">
+    <li id="red"></li>
+    <li id="green"></li>
+    <li id="blue"></li>
+  </ol>
   <script src="main.js"></script>
 </body>
 </html>
